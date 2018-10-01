@@ -3,7 +3,7 @@ const snekfetch = require('snekfetch');
 exports.run = (client, msg, args) => {
   let [title, contents] = args.join(" ").split("|");
   if(!contents) {
-    [title, contents] = ["ABKCraft ", title];
+    [title, contents] = ["HizmetcinizMC ", title];
   }
   let rnd = Math.floor((Math.random() * 39) + 1);
   if(args.join(" ").toLowerCase().includes("burn")) rnd = 38;
